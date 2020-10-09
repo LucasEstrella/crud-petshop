@@ -1,14 +1,14 @@
 package model;
 
-public class Animal {
+public abstract class Animal {
 	
 	private String nome;
 	private int idade;
-	private Cliente dono;
+//	private Cliente dono;
 	
 	
 	public String toString() {
-		return "Animal [nome=" + nome + ", idade=" + idade + ", dono=" + dono + "]";
+		return "Animal [nome=" + nome + ", idade=" + idade + "]";
 	}
 	public String getNome() {
 		return nome;
@@ -22,12 +22,12 @@ public class Animal {
 	public void setIdade(int idade) {
 		this.idade = idade;
 	}
-	public Cliente getDono() {
-		return dono;
-	}
-	public void setDono(Cliente dono) {
-		this.dono = dono;
-	}
+//	public Cliente getDono() {
+//		return dono;
+//	}
+//	public void setDono(Cliente dono) {
+//		this.dono = dono;
+//	}
 	
 	
 	
